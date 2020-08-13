@@ -63,3 +63,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # 管理者・会員管理用
 gem 'devise'
+# Deviseの日本語化用
+gem 'devise-i18n'
+gem 'devise-i18n-views'
