@@ -13,7 +13,7 @@ Rails.application.routes.draw do
     registrations: 'users/registrations'
   }
   # メインページルーティング
-  root 'home#index'
+  root 'home#top'
 
 
 
