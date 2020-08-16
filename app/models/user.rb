@@ -17,8 +17,4 @@ class User < ApplicationRecord
   validates :phone_num, presence: true
   # 会員ステータスは必要、？
 
-  has_many :orders
-  has_many :shippings
-  has_many :cart_items
-
 end
